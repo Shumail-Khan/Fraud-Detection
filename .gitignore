@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Heavy datasets (>50MB / GitHub limits)
+*.csv
+!data/sample/*.csv
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# PaySim raw log file explicitly
+PS_20174392719_1491204439457_log.csv
+*/PS_20174392719_1491204439457_log.csv
+
+# Serialized Model Artifacts
+models/*.joblib
+models/*.pkl
+models/*.onnx
+!models/.gitkeep
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
